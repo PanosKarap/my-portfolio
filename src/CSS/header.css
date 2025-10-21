@@ -1,0 +1,35 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: lightgrey;
+}
+span a {
+  font-size: 20px;
+}
+.header__title {
+  color: white;
+  font-weight: 500;
+  padding-left: 100px;
+  cursor: pointer;
+  list-style: none;
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  padding-right: 100px;
+}

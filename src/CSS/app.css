@@ -1,0 +1,10 @@
+:root {
+  --fontfamily: "Segoe UI";
+  --backcolor: rgb(29, 29, 29);
+}
+
+* {
+  margin: 0;
+  font-family: var(--fontfamily);
+  background-color: var(--backcolor);
+}
