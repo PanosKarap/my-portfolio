@@ -2,34 +2,39 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
   flex-wrap: wrap;
   gap: 15px;
   font-size: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  font-size: 17px;
-  transition: all 0.3s ease 0s;
-}
-a:hover {
-  color: lightgrey;
-}
-span a {
-  font-size: 20px;
-}
+
 .header__title {
+  font-weight: 600;
+  letter-spacing: 2px;
   color: white;
-  font-weight: 500;
-  padding-left: 100px;
-  cursor: pointer;
-  list-style: none;
+  text-decoration: none;
 }
+.header__title:hover {
+  text-shadow: 0 0 10px var(--primarycolor);
+  color: lightgray;
+  transform: scale(1.05);
+  transition: text-shadow 0.1s ease;
+}
+
 .header__menu {
   display: flex;
   list-style: none;
   gap: 35px;
-  padding-right: 100px;
+}
+
+.header__menu__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  transition: all 0.25s ease;
+}
+.header__menu__link:hover {
+  color: var(--primarycolor);
 }

@@ -4,21 +4,29 @@ function Header() {
   return (
     <header>
       <nav className="header__nav">
-        <span className="header__title">
-          <a href="#">Panagiotis Karapanagiotis</a>
-        </span>
+        <a className="header__title" href="#">
+          Karapanagiotis
+        </a>
         <ul class="header__menu" id="navLinks">
           <li>
-            <a href="#">About</a>
+            <a class="header__menu__link" href="#">
+              About
+            </a>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <a class="header__menu__link" href="#">
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a class="header__menu__link" href="#">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a class="header__menu__link" href="#">
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
