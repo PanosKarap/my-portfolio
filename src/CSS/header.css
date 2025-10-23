@@ -7,6 +7,7 @@
   font-size: 20px;
   padding-bottom: 50px;
   padding-top: 20px;
+  background-color: green;
 }
 
 .header__title {
@@ -31,7 +32,7 @@
 .header__menu__link {
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: var(--headerfontweight);
   font-size: 17px;
   transition: all 0.25s ease;
 }

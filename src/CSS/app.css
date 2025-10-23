@@ -2,6 +2,9 @@
   --fontfamily: "Segoe UI";
   --backcolor: rgb(29, 29, 29);
   --primarycolor: hsl(240, 100%, 59%);
+  --primarycolorhover: hsl(240, 100%, 70%);
+  --headerfontweight: 500;
+  --pagefontweight: 400;
 }
 
 body {

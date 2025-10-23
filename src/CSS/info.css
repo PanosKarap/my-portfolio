@@ -1,29 +1,6 @@
-.container {
+.info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  color: white;
-  font-size: 50px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-h2 {
-  color: rgb(181, 181, 181);
-  font-size: 20px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-img {
-  border: 2px solid white;
-  background-color: white;
-  height: 350px;
-  width: 350px;
-  border-radius: 30%;
-  rotate: 3deg;
 }
