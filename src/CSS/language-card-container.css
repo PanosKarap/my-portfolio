@@ -1,0 +1,7 @@
+div.language-card-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-bottom: 20px;
+  /* background-color: #f9f9f9; */
+}

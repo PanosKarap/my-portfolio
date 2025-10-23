@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   /* background-color: red; */
 }
 
@@ -12,7 +12,19 @@
   /* background-color: orange; */
 }
 
-h1 {
+.title-group {
+  display: inline-block;
+}
+
+.title-group hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: var(--primarycolor);
+  margin-bottom: 20px;
+}
+
+.title-container h1 {
   color: white;
   margin-top: 0;
   font-size: 35px;
@@ -21,30 +33,30 @@ h1 {
   /* background-color: pink; */
 }
 
-h2 {
+.title-group h2 {
   color: lightgrey;
   margin: 0;
   font-size: 20px;
   font-weight: var(--pagefontweight);
 }
 
-p {
+.title-container p {
   padding-top: 10px;
   color: white;
   font-size: 16px;
   line-height: 1.5;
 }
 
-a {
+.title-container p a {
   color: var(--primarycolor);
   text-decoration: none;
 }
 
-a:hover {
+.title-container p a:hover {
   color: var(--primarycolorhover);
 }
 
-img {
+.title-photo-container img {
   border: 2px solid white;
   box-shadow: 0 0 30px blue;
   height: 350px;

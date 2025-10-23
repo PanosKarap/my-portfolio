@@ -1,0 +1,40 @@
+.language-card-wrapper {
+  background: linear-gradient(140deg, #cfcfcf, #000000, #cfcfcf);
+  padding: 1px;
+  border-radius: 1.2rem;
+  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+  max-width: 250px;
+}
+
+.language-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#070720, hsl(240, 78%, 41%), #070720);
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+}
+
+.language-card img.language-icon {
+  width: 55px;
+  padding: 10px;
+  box-shadow: 0 0 5px hsl(240, 78%, 41%);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.language-card h3.language-name {
+  color: lightgrey;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.language-card p.language-description {
+  color: lightgrey;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 17px;
+  text-align: center;
+}
