@@ -1,7 +1,22 @@
+.language-card-container-wrapper h1 {
+  color: lightgrey;
+  text-align: center;
+  font-size: 36px;
+  font-weight: var(--pagefontweight);
+}
+
 div.language-card-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
-  padding-bottom: 20px;
+  padding: 0 200px 20px 200px;
   /* background-color: #f9f9f9; */
 }
+
+/* @media screen and (max-width: 1700px) {
+  div.language-card-container {
+    background-color: red;
+    padding: 0 0px 20px 0px;
+  }
+} */
