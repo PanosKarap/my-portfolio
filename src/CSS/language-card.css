@@ -1,18 +1,23 @@
+/* Follows the size of child card - adds outline */
 .language-card-wrapper {
   background: linear-gradient(140deg, #cfcfcf, #000000, #cfcfcf);
-  padding: 1px;
   border-radius: 1.2rem;
   box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+  padding: 1px;
+  width: fit-content;
+  height: fit-content;
 }
 
+/* Decides the size of the card */
 .language-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(#070720, hsl(240, 78%, 41%), #070720);
   border-radius: 1.2rem;
-  padding: 1.5rem;
-  width: 200px;
+  width: 250px;
+  height: 200px;
 }
 
 .language-card img.language-icon {
@@ -33,7 +38,7 @@
 
 .language-card p.language-description {
   color: lightgrey;
-  padding-top: 20px;
+  padding-top: 15px;
   margin: 0;
   font-size: 17px;
   text-align: center;

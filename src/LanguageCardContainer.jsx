@@ -26,7 +26,7 @@ export default function LanguageCardContainer() {
           />
           <LanguageCard
             language={"Python"}
-            description={"Used for backend and libraries."}
+            description={"Used for backend development and data analysis."}
             icon={PythonIcon}
           />
           <LanguageCard
