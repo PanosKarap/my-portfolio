@@ -12,3 +12,7 @@ body {
   font-family: var(--fontfamily);
   background: url("../assets/background.gif");
 }
+
+html {
+  scroll-behavior: smooth;
+}
