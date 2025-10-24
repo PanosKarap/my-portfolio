@@ -43,3 +43,23 @@
   font-size: 17px;
   text-align: center;
 }
+
+@media (max-width: 965px) {
+  .language-card {
+    width: 200px;
+    height: 150px;
+  }
+
+  .language-card img.language-icon {
+    width: 25px;
+  }
+
+  .language-card h3.language-name {
+    font-size: 20px;
+  }
+
+  .language-card p.language-description {
+    padding-top: 10px;
+    font-size: 13px;
+  }
+}

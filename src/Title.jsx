@@ -9,7 +9,9 @@ export default function Title() {
           <h2>Software Engineer</h2>
           <hr />
         </div>
-        <h1>Hello! I'm Panagiotis Karapanagiotis.</h1>
+        <h1>
+          Hello! I'm <br></br>Panagiotis Karapanagiotis.
+        </h1>
         <p>
           I'm 20 years old and was born in Greece. I graduated from the{" "}
           <a href="https://unipi.gr" target="_blank">

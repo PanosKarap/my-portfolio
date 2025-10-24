@@ -16,3 +16,29 @@
   justify-content: center;
   gap: 30px 50px;
 }
+
+@media (max-width: 965px) {
+  .language-card-container-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .language-card-container {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+
+@media (max-width: 753px) {
+  .language-card-container {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (max-width: 492px) {
+  .language-card-container-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .language-card-container {
+    grid-template-columns: repeat(1, 200px);
+  }
+}

@@ -6,13 +6,27 @@
   --pagefontweight: 400;
 }
 
+html,
 body {
   margin: 0;
-  padding: 0 200px 0 200px;
+  padding: 0 50px 0 50px;
   font-family: var(--fontfamily);
+  overflow-x: hidden;
   background: url("../assets/background.gif");
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 930px) {
+  html {
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media (max-width: 356px) {
+  html {
+    padding: 0 10px 0 10px;
+  }
 }

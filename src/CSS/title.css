@@ -64,3 +64,31 @@
   border-radius: 30%;
   rotate: 3deg;
 }
+
+@media (max-width: 930px) {
+  .title-photo-container {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .title-container h1 {
+    color: white;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: var(--pagefontweight);
+    margin-bottom: 20px;
+    /* background-color: pink; */
+  }
+
+  .title-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .title-photo-container img {
+    height: 250px;
+    width: 250px;
+  }
+}

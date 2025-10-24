@@ -12,7 +12,7 @@ export default function App() {
       <Title />
       <LanguageCardContainer />
       <Up />
-      <ProjectCard />
+      {/* <ProjectCard /> */}
     </>
   );
 }

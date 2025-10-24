@@ -5,9 +5,10 @@
   flex-wrap: wrap;
   gap: 15px;
   font-size: 20px;
+  padding: 20px 5%;
   padding-bottom: 150px;
-  padding-top: 20px;
-  /* background-color: green; */
+  box-sizing: border-box;
+  /* background-color: red; */
 }
 
 .header__title {
@@ -15,18 +16,20 @@
   letter-spacing: 2px;
   color: white;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
+
 .header__title:hover {
   text-shadow: 0 0 10px var(--primarycolor);
   color: lightgray;
   transform: scale(1.05);
-  transition: text-shadow 0.1s ease;
 }
 
 .header__menu {
   display: flex;
   list-style: none;
   gap: 35px;
+  flex-wrap: wrap;
 }
 
 .header__menu__link {
@@ -36,18 +39,68 @@
   font-size: 17px;
   transition: all 0.25s ease;
 }
+
 .header__menu__link:hover {
   color: var(--primarycolor);
 }
 
-#skills {
-  scroll-margin-top: 200px;
-}
-
-#projects {
-  scroll-margin-top: 200px;
-}
-
+#skills,
+#projects,
 #contact {
   scroll-margin-top: 200px;
+}
+
+@media (max-width: 930px) {
+  .header__nav {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 698px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+  }
+
+  .header__nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #skills,
+  #projects,
+  #contact {
+    scroll-margin-top: 200px;
+  }
+}
+
+@media (max-width: 455px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+  }
+
+  .header__nav ul {
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #skills,
+  #projects,
+  #contact {
+    scroll-margin-top: 200px;
+  }
 }
