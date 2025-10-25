@@ -1,5 +1,5 @@
 :root {
-  --fontfamily: "Segoe UI";
+  --fontfamily: "Inter", Arial;
   --primarycolor: hsl(240, 100%, 59%);
   --primarycolorhover: hsl(240, 100%, 70%);
   --headerfontweight: 500;
@@ -12,6 +12,7 @@ body {
   padding: 0 50px 0 50px;
   font-family: var(--fontfamily);
   overflow-x: hidden;
+  background-color: black;
   background: url("../assets/background.gif");
 }
 
