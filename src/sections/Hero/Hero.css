@@ -1,0 +1,6 @@
+.hero-container {
+  width: 110rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

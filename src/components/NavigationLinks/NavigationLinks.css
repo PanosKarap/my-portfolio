@@ -1,0 +1,35 @@
+.links {
+  color: var(--white);
+  text-decoration: none;
+  font-size: var(--text-medium);
+  color: var(--white);
+  position: relative;
+  transition: color 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.links:hover {
+  color: var(--lightgrey);
+}
+
+.links:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-base);
+  transition: width 400ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    left 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.links:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}

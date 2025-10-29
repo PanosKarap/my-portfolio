@@ -1,5 +1,5 @@
 import "./Button.css";
 
-export default function Button() {
-  return <button>Hire me</button>;
+export default function Button({ text }) {
+  return <button>{text}</button>;
 }

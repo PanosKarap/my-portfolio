@@ -1,7 +1,10 @@
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Badeen+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
   /* FONT SIZE */
   --text-sm: 1.2rem;
-  --text-base: 1.6rem;
+  --text-medium: 1.6rem;
+  --text-large: 3rem;
   --text-paragraph: 2rem;
   --text-h5: 2.4rem;
   --text-h4: 3.2rem;
@@ -13,20 +16,14 @@
   --font-weight-normal: 400;
   --font-weight-bold: 700;
 
-  /* LINE HEIGHTS */
-  --line-height-tight: 1.2;
-  --line-height-normal: 1.5;
-
-  /* LETTER SPACING */
-  --letter-spacing-tight: -2px;
-
   /* FONT FAMILY */
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Inter", sans-serif;
 
   /* COLORS */
-  --primary-base: blue;
-  --primary-tint: hsl(240, 97%, 58%);
+  --primary-base: rgb(147, 0, 0);
+  --primary-tint: hsl(0, 100%, 37%);
   --white: #ffffff;
+  --lightgrey: #e0e0e0;
   --black: #000000;
 }
 
@@ -34,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 html {
@@ -41,9 +39,15 @@ html {
 }
 
 body {
-  font-family: var(--font-family);
   font-weight: var(--font-weight-normal);
-  line-height: var(--line-height-normal);
+
+  background-color: #111111;
+  background-image: linear-gradient(
+    32deg,
+    rgba(8, 8, 8, 0.74) 30px,
+    transparent
+  );
+  background-size: 100px 100px;
 }
 
 h1,
@@ -52,9 +56,7 @@ h3,
 h4,
 h5 {
   font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-tight);
-  letter-spacing: var(--letter-spacing-tight);
-  color: var(--grey-shade);
+  color: var(--white);
 }
 
 h1 {
@@ -79,27 +81,16 @@ h5 {
 
 p {
   font-size: var(--text-paragraph);
+  color: var(--white);
 }
 
 a {
+  color: var(--primary-base);
   text-decoration: none;
-  font-size: var(--text-base);
-  display: inline-block;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: var(--grey-base);
-}
-
-ul {
-  list-style: none;
-}
-
-span {
-  display: inline-block;
+a:hover {
+  color: var(--primary-tint);
 }
 
 .small-text {
