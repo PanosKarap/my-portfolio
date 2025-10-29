@@ -1,0 +1,24 @@
+@media (max-width: 1230px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 45%;
+  }
+  div.hero-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  div.about-container {
+    margin-right: 0;
+  }
+}

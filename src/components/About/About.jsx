@@ -1,4 +1,9 @@
 import "./About.css";
+import SocialIcon from "../SocialIcon/SocialIcon.jsx";
+
+import githublogo from "../../assets/github-logo.png";
+import linkedinlogo from "../../assets/linkedin-logo.png";
+import instagramlogo from "../../assets/instagram-logo.png";
 
 export default function About() {
   return (
@@ -15,6 +20,20 @@ export default function About() {
         time. I specialize in App Development and am currently looking for job
         opportunities to apply my knowledge and grow as a developer.
       </p>
+      <div className="icon-container">
+        <SocialIcon
+          icon={githublogo}
+          url="https://github.com/PanosKarap"
+        ></SocialIcon>
+        <SocialIcon
+          icon={linkedinlogo}
+          url="https://www.linkedin.com/in/panagiotis-karapanagiotis/"
+        ></SocialIcon>
+        <SocialIcon
+          icon={instagramlogo}
+          url="https://www.instagram.com/_.panoskarap._/"
+        ></SocialIcon>
+      </div>
     </div>
   );
 }

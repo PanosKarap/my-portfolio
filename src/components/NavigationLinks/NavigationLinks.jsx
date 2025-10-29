@@ -5,22 +5,22 @@ export default function NavigationLinks() {
     <>
       <ul>
         <li>
-          <a className="links" href="#">
+          <a id="About" className="links" href="#">
             About
           </a>
         </li>
         <li>
-          <a className="links" href="#">
+          <a id="Skills" className="links" href="#">
             Skills
           </a>
         </li>
         <li>
-          <a className="links" href="#">
+          <a id="Projects" className="links" href="#">
             Projects
           </a>
         </li>
         <li>
-          <a className="links" href="#">
+          <a id="Contact" className="links" href="#">
             Contact
           </a>
         </li>

@@ -20,6 +20,7 @@
   --font-family: "Inter", sans-serif;
 
   /* COLORS */
+
   --primary-base: rgb(147, 0, 0);
   --primary-tint: hsl(0, 100%, 37%);
   --white: #ffffff;
@@ -87,6 +88,7 @@ p {
 a {
   color: var(--primary-base);
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 a:hover {

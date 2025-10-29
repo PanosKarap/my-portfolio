@@ -1,7 +1,7 @@
 .links {
   color: var(--white);
   text-decoration: none;
-  font-size: var(--text-medium);
+  font-size: 17px;
   color: var(--white);
   position: relative;
   transition: color 400ms cubic-bezier(0.25, 0.8, 0.25, 1);

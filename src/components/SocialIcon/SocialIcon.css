@@ -1,0 +1,25 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--primary-base);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  transition: 0.3s ease;
+}
+
+.icon-url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 70%;
+  height: 70%;
+}
+
+.logo-container:hover {
+  background-color: var(--lightgrey);
+}

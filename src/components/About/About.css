@@ -1,5 +1,6 @@
 .about-container {
   width: 60rem;
+  margin-right: 10rem;
 }
 
 .occupation {
@@ -21,4 +22,10 @@
 
 .name {
   margin-bottom: 3rem;
+}
+
+.icon-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
 }
