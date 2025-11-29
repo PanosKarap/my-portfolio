@@ -1,15 +1,14 @@
 import "./App.css";
-import Navigation from "./sections/Navigation/Navigation.jsx";
-import Hero from "./sections/Hero/Hero.jsx";
+import Navigation from "./sections/navigation/Navigation.jsx";
+import Hero from "./sections/hero/Hero.jsx";
 
 export default function App() {
   return (
     <>
-      <div className="app-container">
+      <div className="body-container">
         <Navigation></Navigation>
-        <div className="body-container">
-          <Hero></Hero>
-        </div>
+        <Hero></Hero>
+        {/* <Footer/> */}
       </div>
     </>
   );

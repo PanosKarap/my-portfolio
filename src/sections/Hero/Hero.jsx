@@ -1,5 +1,5 @@
-import About from "../../components/About/About";
-import Logo from "../../components/Logo/Logo";
+import About from "../../components/about/About";
+import Logo from "../../components/logo/Logo";
 import "./Hero.css";
 
 export default function Hero() {

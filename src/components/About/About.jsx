@@ -1,15 +1,15 @@
 import "./About.css";
-import SocialIcon from "../SocialIcon/SocialIcon.jsx";
+import SocialIcon from "../socialIcon/SocialIcon.jsx";
 
-import githublogo from "../../assets/github-logo.png";
-import linkedinlogo from "../../assets/linkedin-logo.png";
-import instagramlogo from "../../assets/instagram-logo.png";
+import githublogo from "../../assets/github.png";
+import linkedinlogo from "../../assets/linkedin.png";
+import instagramlogo from "../../assets/instagram.png";
 
 export default function About() {
   return (
     <div className="about-container">
-      <h5 className="occupation">Software Engineer</h5>
-      <h4 className="name">Hello! I'm Panagiotis Karapanagiotis.</h4>
+      <h2 className="occupation">Software Engineer</h2>
+      <h1 className="name">Hello! I'm Panagiotis Karapanagiotis.</h1>
       <p>
         I'm 20 years old and was born in Greece. I graduated from the{" "}
         <a href="https://unipi.gr" target="_blank">

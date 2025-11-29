@@ -1,4 +1,4 @@
-button {
+.hire-button {
   font-size: var(--text-medium);
   font-weight: var(--font-weight-bold);
   text-align: center;
@@ -12,6 +12,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.hire-button:hover {
   background-color: var(--primary-tint);
 }

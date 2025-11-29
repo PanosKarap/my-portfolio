@@ -1,4 +1,4 @@
-.logo-container {
+.social-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,18 +9,19 @@
   transition: 0.3s ease;
 }
 
-.icon-url {
+.social-icon-url {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.icon {
+.social-icon {
   width: 70%;
-  height: 70%;
+  padding: 2px;
 }
 
-.logo-container:hover {
+.social-icon-container:hover {
   border: 2px solid var(--lightgrey);
+  transform: scale(1.1);
   cursor: pointer;
 }

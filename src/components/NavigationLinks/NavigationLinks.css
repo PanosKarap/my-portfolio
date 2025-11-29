@@ -1,4 +1,4 @@
-.links {
+.navigation-links {
   color: var(--white);
   text-decoration: none;
   font-size: 17px;
@@ -7,11 +7,11 @@
   transition: color 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.links:hover {
+.navigation-links:hover {
   color: var(--lightgrey);
 }
 
-.links:after {
+.navigation-links:after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -23,12 +23,12 @@
     left 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.links:hover:after {
+.navigation-links:hover:after {
   width: 100%;
   left: 0;
 }
 
-ul {
+.navigation-links-container {
   list-style: none;
   display: flex;
   gap: 5rem;
