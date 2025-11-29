@@ -1,6 +1,6 @@
 import "./App.css";
-import Navigation from "./sections/navigation/Navigation.jsx";
-import Hero from "./sections/hero/Hero.jsx";
+import Navigation from "./sections/navigation/Navigation";
+import Hero from "./sections/hero/Hero";
 
 export default function App() {
   return (
