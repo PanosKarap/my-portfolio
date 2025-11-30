@@ -1,0 +1,31 @@
+.language-card {
+  width: 25rem;
+  height: 20rem;
+  border: 2px solid var(--primary-base);
+  border-radius: 5%;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px var(--primary-base);
+}
+
+.language-icon {
+  width: 90px;
+  margin-bottom: 25px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-base);
+}
+
+.language-name {
+  font-size: var(--text-large);
+}

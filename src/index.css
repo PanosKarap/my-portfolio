@@ -34,6 +34,13 @@
 
 html {
   font-size: 62.5%;
+  scrollbar-color: var(--primary-base) var(--black);
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+#skills {
+  scroll-margin-top: 400px;
 }
 
 body {
