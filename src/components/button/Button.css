@@ -1,9 +1,9 @@
-.hire-button {
+.download-cv-button {
   font-size: var(--text-medium);
   font-weight: var(--font-weight-bold);
   text-align: center;
   color: var(--white);
-  width: 10rem;
+  width: 13rem;
   background-color: var(--primary-base);
   border: none;
   border-radius: 8px;
@@ -12,6 +12,7 @@
   cursor: pointer;
 }
 
-.hire-button:hover {
+.download-cv-button:hover {
+  color: var(--white);
   background-color: var(--primary-tint);
 }

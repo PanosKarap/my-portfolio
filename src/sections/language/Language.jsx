@@ -99,7 +99,7 @@ export default function Language() {
   return (
     <>
       <div id="skills" className="language-container">
-        <h1>Languages and Frameworks</h1>
+        <h1 className="language-title">Languages and Frameworks</h1>
         <div className="language-card-container">
           <LanguageCard languageIcon={javaIcon} languageName={"Java"} />
           <LanguageCard languageIcon={csharpIcon} languageName={"C#"} />

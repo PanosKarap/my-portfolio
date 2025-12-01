@@ -7,7 +7,7 @@ export default function Navigation() {
     <>
       <div className="navigation-container">
         <NavigationLinks></NavigationLinks>
-        <Button text="Hire me"></Button>
+        <Button text="Download CV"></Button>
       </div>
     </>
   );

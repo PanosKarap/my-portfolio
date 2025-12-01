@@ -7,6 +7,7 @@
 }
 
 .form-container {
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -21,13 +22,18 @@
 .first-name-container {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  flex: 1;
 }
+
+/* .first-name-container,
+.last-name-container {
+  min-width: 50px;
+} */
 
 .last-name-container {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  flex: 1;
 }
 
 .label {
@@ -36,6 +42,7 @@
 }
 
 .input {
+  width: 100%;
   margin-top: 3px;
   font-size: var(--text-h2);
   background-color: var(--black);

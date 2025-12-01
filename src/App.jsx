@@ -1,4 +1,5 @@
 import "./App.css";
+import "./queries.css";
 import Navigation from "./sections/navigation/Navigation";
 import Hero from "./sections/hero/Hero";
 import Language from "./sections/language/Language";

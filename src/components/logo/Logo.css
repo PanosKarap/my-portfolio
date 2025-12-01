@@ -1,7 +1,21 @@
+.profile-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .profile-logo {
   width: 40rem;
   height: 40rem;
   padding: 5px;
   border-radius: 20%;
   box-shadow: 0px 0px 10px black;
+}
+
+.profile-picture-icon-container {
+  display: none;
+  gap: 2rem;
+  margin-top: 2rem;
 }

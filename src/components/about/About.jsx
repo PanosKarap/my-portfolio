@@ -20,7 +20,7 @@ export default function About() {
         time. I specialize in App Development and am currently looking for job
         opportunities to apply my knowledge and grow as a developer.
       </p>
-      <div className="icon-container">
+      <div className="about-icon-container">
         <SocialIcon
           icon={githublogo}
           url="https://github.com/PanosKarap"
