@@ -1,0 +1,66 @@
+.contact-container {
+  margin-top: 10rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-last-name-container {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.first-name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.last-name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label {
+  font-size: var(--text-medium);
+  color: white;
+}
+
+.input {
+  margin-top: 3px;
+  font-size: var(--text-h2);
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--primary-base);
+  border-radius: 3px;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid var(--primary-tint);
+  box-shadow: 0 0 5px var(--primary-tint);
+  transition: 0.2s ease;
+}
+
+.email-input {
+  width: 100%;
+}
+
+.message-input {
+  width: 100%;
+  resize: vertical;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  align-self: center;
+}
