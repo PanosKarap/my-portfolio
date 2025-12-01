@@ -103,6 +103,9 @@
   form.form-container {
     width: 80%;
   }
+  a.navigation-links {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
