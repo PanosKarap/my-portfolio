@@ -10,15 +10,15 @@ export default function Projects() {
         <div className="projects-card-container">
           <ProjectCard
             projectImagePath={projectPlaceholder}
-            projectTitle="Placeholder 1"
+            projectTitle="Project 1"
           />
           <ProjectCard
             projectImagePath={projectPlaceholder}
-            projectTitle="Placeholder 2"
+            projectTitle="Project 2"
           />
           <ProjectCard
             projectImagePath={projectPlaceholder}
-            projectTitle="Placeholder 3"
+            projectTitle="Project 3"
           />
         </div>
       </div>
