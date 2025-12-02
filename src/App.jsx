@@ -5,7 +5,7 @@ import Hero from "./sections/hero/Hero";
 import Language from "./sections/language/Language";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
-import Projects from "./sections/projects/projects";
+// import Projects from "./sections/projects/Projects";
 
 export default function App() {
   return (
