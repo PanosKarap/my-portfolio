@@ -150,13 +150,13 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   ul.navigation-links-container {
     gap: 2rem;
   }
   div.language-card {
-    width: 15rem;
-    height: 10rem;
+    width: 18rem;
+    height: 13rem;
   }
   div.language-icon {
     width: 5rem;

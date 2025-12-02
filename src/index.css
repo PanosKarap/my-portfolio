@@ -45,10 +45,6 @@ html {
   background: var(--primary-tint);
 }
 
-#about {
-  scroll-margin-top: 100px;
-}
-
 #skills {
   scroll-margin-top: 200px;
 }

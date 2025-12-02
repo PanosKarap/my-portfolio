@@ -5,6 +5,7 @@ import Hero from "./sections/hero/Hero";
 import Language from "./sections/language/Language";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
+import ArrowUp from "./components/arrowUp/ArrowUp";
 // import Projects from "./sections/projects/Projects";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         {/* <Projects /> */}
         <Contact />
         <Footer />
+        <ArrowUp />
       </div>
     </>
   );

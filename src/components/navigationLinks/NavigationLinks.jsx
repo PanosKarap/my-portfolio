@@ -5,11 +5,6 @@ export default function NavigationLinks() {
     <>
       <ul className="navigation-links-container">
         <li>
-          <a className="navigation-links" href="#about">
-            About
-          </a>
-        </li>
-        <li>
           <a className="navigation-links" href="#skills">
             Skills
           </a>

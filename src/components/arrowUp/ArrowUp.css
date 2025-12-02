@@ -1,0 +1,20 @@
+.arrowUpIcon {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 9999;
+  transition: 0.3s ease;
+}
+
+.arrowUpIcon:hover {
+  transform: scale(1.1);
+}
+
+.arrowUpIcon svg {
+  transition: fill 0.25s ease;
+}
+
+.arrowUpIcon:hover svg {
+  fill: var(--primary-tint);
+}
