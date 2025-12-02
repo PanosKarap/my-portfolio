@@ -21,11 +21,20 @@
 }
 
 .language-icon {
-  width: 90px;
+  width: 9rem;
   margin-bottom: 25px;
-  padding: 2px;
   border-radius: 50%;
   border: 2px solid var(--primary-base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-icon svg {
+  margin: 1.5rem;
+  width: 90%;
+  height: 90%;
+  fill: var(--primary-base);
 }
 
 .language-name {

@@ -64,6 +64,7 @@ export default function Contact() {
             type="email"
             id="email"
             name="email"
+            autoComplete="off"
             required
           />
         </div>
