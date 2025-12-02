@@ -37,10 +37,14 @@
 
 html {
   font-size: 62.5%;
-  scrollbar-color: var(--primary-base) var(--black);
-  scrollbar-width: thin;
+  scrollbar-width: none;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-tint);
+}
+
 #about {
   scroll-margin-top: 100px;
 }
