@@ -5,6 +5,7 @@ import Hero from "./sections/hero/Hero";
 import Language from "./sections/language/Language";
 import Footer from "./sections/footer/Footer";
 import Contact from "./sections/contact/Contact";
+import Projects from "./sections/projects/projects";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Navigation />
         <Hero />
         <Language />
+        {/* <Projects /> */}
         <Contact />
         <Footer />
       </div>

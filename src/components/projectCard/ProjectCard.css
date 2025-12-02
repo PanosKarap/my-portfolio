@@ -1,0 +1,30 @@
+.project-card {
+  width: 35rem;
+  height: 30rem;
+  border: 2px solid var(--primary-base);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px var(--primary-base);
+}
+
+.project-image {
+  flex: 4;
+  width: 100%;
+  height: 0;
+  object-fit: cover;
+}
+
+.project-title {
+  flex: 1;
+  background-color: var(--primary-base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

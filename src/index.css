@@ -56,13 +56,19 @@ html {
 body {
   font-weight: var(--font-weight-normal);
 
-  background-color: #111111;
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  /* background-color: #111111;
   background-image: linear-gradient(
     32deg,
     rgba(8, 8, 8, 0.74) 30px,
     transparent
   );
-  background-size: 100px 100px;
+  background-size: 100px 100px; */
 }
 
 h1,
