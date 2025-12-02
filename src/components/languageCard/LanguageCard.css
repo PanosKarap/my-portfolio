@@ -3,6 +3,7 @@
   height: 20rem;
   border: 2px solid var(--primary-base);
   border-radius: 5%;
+  background: rgba(0, 0, 0, 0.275);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;

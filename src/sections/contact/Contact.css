@@ -25,11 +25,6 @@
   flex: 1;
 }
 
-/* .first-name-container,
-.last-name-container {
-  min-width: 50px;
-} */
-
 .last-name-container {
   display: flex;
   flex-direction: column;
@@ -45,7 +40,9 @@
   width: 100%;
   margin-top: 3px;
   font-size: var(--text-h2);
-  background-color: var(--black);
+  background: rgba(0, 0, 0, 0.298);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: var(--white);
   border: 2px solid var(--primary-base);
   border-radius: 3px;
