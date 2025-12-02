@@ -9,7 +9,7 @@ export default function SocialIcon({ icon, url }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className="social-icon" src={icon}></img>
+        <div className="social-icon">{icon}</div>
       </a>
     </div>
   );

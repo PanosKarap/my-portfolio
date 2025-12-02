@@ -9,6 +9,15 @@
   transition: 0.3s ease;
 }
 
+.social-icon-container:hover {
+  border: 2px solid var(--lightgrey);
+  transform: scale(1.1);
+  cursor: pointer;
+  .social-icon svg {
+    fill: var(--primary-tint);
+  }
+}
+
 .social-icon-url {
   display: flex;
   justify-content: center;
@@ -16,12 +25,13 @@
 }
 
 .social-icon {
-  width: 70%;
-  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
-.social-icon-container:hover {
-  border: 2px solid var(--lightgrey);
-  transform: scale(1.1);
-  cursor: pointer;
+.social-icon svg {
+  fill: var(--primary-base);
+  width: 100%;
 }
