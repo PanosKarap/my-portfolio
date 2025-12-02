@@ -41,10 +41,6 @@ html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-tint);
-}
-
 #skills {
   scroll-margin-top: 200px;
 }

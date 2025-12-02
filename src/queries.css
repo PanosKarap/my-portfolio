@@ -148,6 +148,9 @@
   hr.footer-line {
     margin-top: 5rem;
   }
+  div.arrowUpIcon {
+    display: none;
+  }
 }
 
 @media (max-width: 350px) {
