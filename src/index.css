@@ -19,12 +19,11 @@
 
   /* COLORS */
   --primary-base: rgb(147, 0, 0);
-  --primary-base-soft: rgba(147, 0, 0, 0.762);
-  --primary-base-softer: rgba(147, 0, 0, 0.397);
+  --primary-base-soft: rgba(147, 0, 0, 0.397);
   --primary-tint: hsl(0, 100%, 37%);
   --white: #ffffff;
   --lightgrey: #e0e0e0;
-  --darkgrey: #666666;
+  --darkgrey: #c9c9c99e;
   --black: #000000;
 }
 
