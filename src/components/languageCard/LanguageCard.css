@@ -34,7 +34,7 @@
   margin: 1.5rem;
   width: 90%;
   height: 90%;
-  fill: var(--primary-base);
+  fill: var(--lightgrey);
 }
 
 .language-name {
