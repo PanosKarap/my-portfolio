@@ -14,6 +14,7 @@ export default function Logo() {
           src={profilelogo}
           className="profile-logo"
           alt="Profile Logo"
+          fetchpriority="high"
         ></img>
         <div className="profile-picture-icon-container">
           <SocialIcon
