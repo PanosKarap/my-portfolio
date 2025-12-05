@@ -8,6 +8,3 @@ Disallow:
 
 # Sitemap για να διευκολύνουμε τις μηχανές αναζήτησης
 Sitemap: https://www.panoskarap.gr/sitemap.xml
-
-# Content signal για μηχανές που το υποστηρίζουν
-# Content-signal: search=yes,ai-train=no
