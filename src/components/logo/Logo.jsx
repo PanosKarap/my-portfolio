@@ -10,7 +10,11 @@ export default function Logo() {
   return (
     <>
       <div className="profile-logo-container">
-        <img src={profilelogo} className="profile-logo"></img>
+        <img
+          src={profilelogo}
+          className="profile-logo"
+          alt="Profile Logo"
+        ></img>
         <div className="profile-picture-icon-container">
           <SocialIcon
             icon={<GithubLogo />}

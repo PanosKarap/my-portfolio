@@ -8,6 +8,7 @@ export default function SocialIcon({ icon, url }) {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Social profile"
       >
         <div className="social-icon">{icon}</div>
       </a>
