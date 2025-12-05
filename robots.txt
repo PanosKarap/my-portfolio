@@ -1,0 +1,13 @@
+# Επιτρέπουμε σε όλους τους crawlers να ανιχνεύουν όλο το site
+User-agent: *
+Disallow:
+
+# Φάκελοι που δεν θέλουμε να ανιχνευθούν (προαιρετικά)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap για να διευκολύνουμε τις μηχανές αναζήτησης
+Sitemap: https://www.panoskarap.gr/sitemap.xml
+
+# Content signal για μηχανές που το υποστηρίζουν
+# Content-signal: search=yes,ai-train=no
