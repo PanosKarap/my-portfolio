@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Badeen+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
 :root {
   /* FONT SIZE */
   --text-sm: 1.2rem;
@@ -40,14 +37,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#skills {
-  scroll-margin-top: 200px;
-}
-
-/* #projects {
-  scroll-margin-top: 300px;
-} */
-
 body {
   font-weight: var(--font-weight-normal);
   background-image: url("./assets/background.png");
@@ -62,40 +51,24 @@ h2 {
   font-weight: var(--font-weight-bold);
   color: var(--white);
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p:hover {
-  cursor: default;
-}
-
 h1 {
   font-size: var(--text-h1);
 }
-
 h2 {
   font-size: var(--text-h2);
 }
-
 p {
   font-size: var(--text-paragraph);
   color: var(--white);
 }
-
 a {
   color: var(--primary-base);
   text-decoration: none;
   transition: 0.3s ease;
 }
-
 a:hover {
   color: var(--primary-tint);
 }
-
 button {
   font-size: var(--text-medium);
   font-weight: var(--font-weight-bold);
@@ -109,7 +82,6 @@ button {
   transition: 0.2s ease;
   cursor: pointer;
 }
-
 button:hover {
   background-color: var(--primary-tint);
 }
