@@ -1,38 +1,27 @@
-.social-icon-container {
+.social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--primary-base);
   border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
   transition: 0.3s ease;
 }
 
-.social-icon-container:hover {
+.social-icon:hover {
   border: 2px solid var(--lightgrey);
-  transform: scale(1.1);
+  transform: translateY(-3px);
   cursor: pointer;
-  .social-icon svg {
+  .social-icon path {
     fill: var(--primary-tint);
   }
 }
 
-.social-icon-url {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.social-icon svg {
+  width: 2.6rem;
+  height: auto;
   margin: 1rem;
 }
 
-.social-icon svg {
+.social-icon path {
   fill: var(--primary-base);
-  width: 100%;
-  height: auto;
 }

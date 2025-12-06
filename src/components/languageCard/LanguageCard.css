@@ -10,8 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -21,7 +19,6 @@
 }
 
 .language-icon {
-  width: 9rem;
   margin-bottom: 25px;
   border-radius: 50%;
   border: 2px solid var(--primary-base);
@@ -32,8 +29,11 @@
 
 .language-icon svg {
   margin: 1.5rem;
-  width: 90%;
-  height: 90%;
+  width: 6rem;
+  height: auto;
+}
+
+.language-icon path {
   fill: var(--lightgrey);
 }
 
