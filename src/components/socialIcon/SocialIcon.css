@@ -11,9 +11,10 @@
   border: 2px solid var(--lightgrey);
   transform: translateY(-3px);
   cursor: pointer;
-  .social-icon path {
-    fill: var(--primary-tint);
-  }
+}
+
+.social-icon:hover path {
+  fill: var(--primary-tint);
 }
 
 .social-icon svg {
