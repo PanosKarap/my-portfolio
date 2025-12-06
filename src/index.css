@@ -15,7 +15,7 @@
   --font-family: "DM Sans", "Inter", sans-serif;
 
   /* COLORS */
-  --primary-base: rgb(147, 0, 0);
+  --primary-base: rgb(0, 147, 27);
   --primary-base-soft: rgba(147, 0, 0, 0.397);
   --primary-tint: hsl(0, 100%, 37%);
   --white: #ffffff;
