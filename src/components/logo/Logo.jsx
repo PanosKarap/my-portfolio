@@ -1,5 +1,5 @@
 import "./Logo.css";
-import profilelogo from "../../assets/profile-logo-xmas.webp";
+import profilelogo from "../../assets/profile-logo.webp";
 import SocialIcon from "../socialIcon/SocialIcon";
 
 import GithubLogo from "../../assets/github_logo.svg?react";

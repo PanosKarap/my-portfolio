@@ -8,13 +8,8 @@
 }
 
 .social-icon:hover {
-  border: 2px solid var(--lightgrey);
   transform: translateY(-3px);
   cursor: pointer;
-}
-
-.social-icon:hover path {
-  fill: var(--primary-tint);
 }
 
 .social-icon svg {
@@ -24,5 +19,5 @@
 }
 
 .social-icon path {
-  fill: var(--primary-base);
+  fill: var(--white);
 }

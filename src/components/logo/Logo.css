@@ -9,7 +9,7 @@
 .profile-logo {
   width: 40rem;
   height: 40rem;
-  padding: 5px;
+  border: 6px solid white;
   border-radius: 20%;
   box-shadow: 0px 0px 10px black;
 }
