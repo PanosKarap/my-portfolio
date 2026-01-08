@@ -1,3 +1,3 @@
 # My Portfolio (Not finished)
 
-![image alt](https://github.com/PanosKarap/my-portfolio/blob/56cb02677402e7b540baa80414066c714df6655a/Portfolio.png)
+![image alt](https://github.com/PanosKarap/my-portfolio/blob/4fe46981ba04fb31688d5d39428241c82eeec54f/Portfolio.png)
