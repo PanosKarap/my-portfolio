@@ -1,6 +1,6 @@
 import "./Projects.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
-import projectPlaceholder from "../../assets/BusTourProject.png";
+import projectPlaceholder from "../../assets/BusTourProject.webp";
 
 export default function Projects() {
   return (
