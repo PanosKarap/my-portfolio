@@ -55,6 +55,7 @@ h1,
 h2 {
   font-weight: var(--font-weight-bold);
   color: var(--white);
+  cursor: default;
 }
 h1 {
   font-size: var(--text-h1);
@@ -65,6 +66,7 @@ h2 {
 p {
   font-size: var(--text-paragraph);
   color: var(--white);
+  cursor: default;
 }
 a {
   color: var(--primary-base);
