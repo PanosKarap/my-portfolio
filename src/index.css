@@ -24,7 +24,8 @@
   --black: #000000;
 }
 
-#skills {
+#skills,
+#projects {
   scroll-margin-top: 200px;
 }
 

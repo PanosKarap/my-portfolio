@@ -17,8 +17,9 @@ export default function About() {
           University of Piraeus
         </a>{" "}
         , while also testing and improving my skills by building some{" "}
-        <a href="#">personal projects</a> in my free time. I'm currently looking
-        for job opportunities to apply my knowledge and grow as a developer.
+        <a href="#projects">personal projects</a> in my free time. I'm currently
+        looking for job opportunities to apply my knowledge and grow as a
+        developer.
       </p>
       <div className="about-icon-container">
         <SocialIcon

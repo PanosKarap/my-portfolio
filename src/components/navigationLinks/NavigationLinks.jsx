@@ -9,11 +9,11 @@ export default function NavigationLinks() {
             Skills
           </a>
         </li>
-        {/* <li>
+        <li>
           <a className="navigation-links" href="#projects">
             Projects
           </a>
-        </li> */}
+        </li>
         <li>
           <a className="navigation-links" href="#contact">
             Contact

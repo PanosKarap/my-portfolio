@@ -1,6 +1,6 @@
 import "./Projects.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
-import projectPlaceholder from "../../assets/project-placeholder.png";
+import projectPlaceholder from "../../assets/BusTourProject.png";
 
 export default function Projects() {
   return (
@@ -10,15 +10,10 @@ export default function Projects() {
         <div className="projects-card-container">
           <ProjectCard
             projectImagePath={projectPlaceholder}
-            projectTitle="Project 1"
-          />
-          <ProjectCard
-            projectImagePath={projectPlaceholder}
-            projectTitle="Project 2"
-          />
-          <ProjectCard
-            projectImagePath={projectPlaceholder}
-            projectTitle="Project 3"
+            projectTitle="Bus Tour Project"
+            previewLink={"https://bus-tour-project.pages.dev/"}
+            githubLink={"https://github.com/PanosKarap/bus-tour-project"}
+            techStack={["React", "HTML", "CSS"]}
           />
         </div>
       </div>

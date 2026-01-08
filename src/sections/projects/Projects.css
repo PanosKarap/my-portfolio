@@ -15,5 +15,6 @@
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  justify-content: space-between;
+  justify-content: center; /* Τώρα που έχει μόνο ένα project */
+  /* justify-content: space-between; */
 }

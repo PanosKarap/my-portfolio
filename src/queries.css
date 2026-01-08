@@ -97,9 +97,6 @@
 }
 
 @media (max-width: 550px) {
-  html {
-    font-size: 40%;
-  }
   form.form-container {
     width: 80%;
   }

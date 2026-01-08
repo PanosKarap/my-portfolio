@@ -19,14 +19,82 @@
 
 .project-image {
   width: 100%;
-  height: 80%;
+  height: 55%;
   object-fit: cover;
+  border-bottom: 2px solid var(--primary-base);
 }
 
 .project-title {
-  height: 20%;
-  border-top: 2px solid var(--primary-base);
+  height: 17%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+}
+
+.project-buttons {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.btn {
+  text-decoration: none;
+  width: 10rem;
+  color: black;
+  background-color: var(--primary-base);
+  border: 1px solid var(--primary-base);
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+  box-shadow: 0 0 10px var(--primary-base);
+}
+
+.transparent {
+  color: var(--primary-base);
+  background: rgba(0, 0, 0, 0.275);
+  backdrop-filter: blur(20px);
+}
+
+.transparent:hover {
+  color: var(--primary-base);
+}
+
+.project-tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tech-badge {
+  background: var(--primary-base-soft);
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.723);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: default;
+  transition: background 0.3s ease;
+}
+
+.tech-badge:hover {
+  background: rgba(147, 0, 0, 0.331);
 }
