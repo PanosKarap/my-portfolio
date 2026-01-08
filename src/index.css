@@ -52,6 +52,12 @@ body {
 }
 
 h1,
+h2,
+p {
+  cursor: default;
+}
+
+h1,
 h2 {
   font-weight: var(--font-weight-bold);
   color: var(--white);
